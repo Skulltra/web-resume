@@ -1,0 +1,105 @@
+﻿/*
+  Author: Ben Huckaby
+  Created: 1/8/16
+  Updated: 1/20/16
+*/
+
+body{
+	width: 80%;
+	margin: 20px auto;
+	
+	background-color: rgba(0, 75, 0, .5);
+	
+	color:#333;
+	
+	font-family:"Helverica New";
+	
+	font-size:16px;
+	
+	line-height:1.5em;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #1a0d00;
+	padding-bottom: .5em;
+}
+article h1{
+	text-align:center;
+}
+article h3{
+	text-align:center;
+}
+
+a{
+	color: #006600;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+li:nth-child(odd){
+	font-weight:bold;
+	
+}
+
+header{
+	background-color: rgba(91, 215, 215, .55);
+	color:#1a1a1a;
+	padding:10px;
+	border-bottom-color:#004b00;
+	border-bottom-style: solid;
+	border-bottom-width:5px
+}
+
+footer{
+	text-align:center;
+}
+
+#PageTitle h1{
+	border:none;
+	text-align:left;
+	font-size:2em;
+	padding-bottom:0;
+	
+}
+
+nav{
+	text-align:right;
+}
+
+nav a{
+	margin-right:20px;
+	background-color:#3366ff;
+	padding: 10px;
+	color:#fff;
+	text-transform:uppercase;
+	border-radius:5px
+}
+
+nav a:hover{
+	text-decoration:none;
+	background-color:#0000ff;
+}
+
+img{
+	max-width:100%;
+	width:auto;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+}
+figure{
+	float:right;
+}

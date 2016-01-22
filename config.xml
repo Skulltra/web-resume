@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<widget 
+	xmlns="http://www.w3.org/ns/wigdet"
+	xmlns:gap="http://phonegap.com/ns/1.0"
+	id="com.phonegap.appproject"
+	version="1.0"
+>
+	<name>App Name</name>
+	
+	<description>
+	My first app using PhoneGap
+	</description>
+	
+	<author href="http://www.mysite.com" email="ben@huckabyhome.com">
+	Ben Huckaby
+	</author>
+	
+<!-- Preferences for the app -->
+	<preference name="orientation" value="default"/>
+	<preference name="target-device" value="universal" />
+	
+<!-- Setting The Icon -->
+	<icon src="imgs/triforce.png" />
+	
+</widget>
